@@ -23,7 +23,7 @@ WHERE birth_date LIKE '%-12-25';
 # Find all employees with a 'q' in their last name — 1,873 rows.
 SELECT *
 FROM employees
-WHERE last_name like '%q%'
+WHERE last_name like '%q%';
 
 
 # Update your query for 'Irena', 'Vidya', or 'Maya' to use OR instead of IN — 709 rows.
